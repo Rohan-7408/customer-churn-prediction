@@ -1,12 +1,3 @@
-import sys
-print("Python version:", sys.version)
-
-try:
-    import joblib
-    print("Joblib version:", joblib.__version__)
-except Exception as e:
-    print("Joblib import error:", repr(e))
-
 import streamlit as st
 import pandas as pd
 import joblib
